@@ -1,40 +1,40 @@
--- ds.page: Welcome to doc-site
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: white
+align-content: center
+
+-- card:
+
+-- component card:
+
+-- ftd.row:
+width.fixed.px: 750
+height.fixed.px: 750
+background.solid: pink
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 50
+
+-- ftd.image:
+src:https://i.pinimg.com/564x/a5/48/9d/a5489dc53dc411d372aadf35fc15692c.jpg
+height.fixed.px: 250
+width.fixed.px: 550
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- ftd.column:
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- ftd.text: BEAUTY OF EYES
+role: $inherited.types.heading-medium
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- ftd.text: 
+role: $inherited.types.copy-regular
 
--- ds.h3: 🚀 Fast Track 
+I wish my eyes could take pictures of everthing,Capture every beauty I see,Every sorrow I feel ,It feels good to get your perception captured with no need of words to explain it
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+-- end: ftd.column
 
--- ds.h3: 🌟 Whats next?
+-- end: ftd.row
 
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
-
--- ds.h3: 🎯 Used by?
-
-Our all documentation sites uses this `doc-site` theme.
-
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
-
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
--- end: ds.page
+-- end: card
